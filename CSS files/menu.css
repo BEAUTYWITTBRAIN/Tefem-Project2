@@ -5,6 +5,49 @@
     font-family: Arial, sans-serif;
   }
   
+/* nav styling */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #ccc; /* Light gray bottom border */
+  box-shadow: 0 2px 5px rgba(100, 95, 95, 0.1);
+ 
+}
+
+/* Left Aligned Logo */
+.nav-logo {
+  color: #726d6d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration:none;
+  padding-left: 100px;
+}
+
+/* Right Aligned Links */
+.nav-links {
+  display: flex;
+  gap: 50px; /* Space between each link */
+  justify-content:center;
+  padding-left:500px;
+}
+
+.nav-links a {
+  color: #444;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.7s;
+}
+
+.nav-links a:hover {
+  color: #28a745; /* Change color on hover */
+}
+
   /* General section styling */
 .menu-section {
   text-align: center;
